@@ -1,0 +1,9 @@
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/Lab3/lab3other$ gcc serv_prog.c
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/Lab3/lab3other$ gcc client_prog.c -o client_prog
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/Lab3/lab3other$ ./a.out res.out
+8963: Start typing row of number. Press 'Ctrl-D' or 'Enter' with no input to exit
+23 1.2 4.5 0.3
+8963: I'm a parent, my child has PID 8969
+8969: I'm a child
+8969: Solution of expression (23.000 / 1.200 / 4.500 / 0.300) is 14.198
+

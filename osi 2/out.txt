@@ -1,0 +1,25 @@
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/LabOS/Lab02$ gcc test2_sort.c
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/LabOS/Lab02$ ./a.out
+usage: ./a.out array_count thread_count
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/LabOS/Lab02$ ./a.out 100000000 1
+Now time is: Sat Nov 30 14:11:41 2024
+Array[100000000]
+Threads[1]
+Array Randomized
+Now time is: Sat Nov 30 14:12:31 2024
+Array sorted in 50 Seconds
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/LabOS/Lab02$ ./a.out 100000000 5
+Now time is: Sat Nov 30 14:12:36 2024
+Array[100000000]
+Threads[5]
+Array Randomized
+Now time is: Sat Nov 30 14:12:59 2024
+Array sorted in 23 Seconds
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/LabOS/Lab02$ ./a.out 100000000 10
+Now time is: Sat Nov 30 14:13:03 2024
+Array[100000000]
+Threads[10]
+Array Randomized
+Now time is: Sat Nov 30 14:13:28 2024
+Array sorted in 25 Seconds
+

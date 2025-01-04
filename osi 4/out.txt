@@ -1,0 +1,47 @@
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/LabOS/Lab04$ gcc -o lib.so -fPIC -shared lib.c
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/LabOS/Lab04$ gcc -o prog -ldl alloc_test.c
+
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/LabOS/Lab04$ ./prog
+warning: failed to find alloc function implementation
+Size of memory 1048576
+Address of memory 0x7a697283c000
+Used memory: 1032416
+Free memory: 1440
+Total memory: 1033856
+Count of blocks: 670
+
+irina@Irina-VivoBook:~/Prog/Prog_C/Kurs2/LabOS/Lab04$ ./prog ./lib.so
+Size of memory 1048576
+Address of memory 0x70fd9cd00000
+Power for block: 10
+Power block size: 1024
+Power block address: (nil)
+Power for block: 12
+Power block size: 4096
+Power block address: 0x70fd9cd01000
+Power for block: 11
+Power block size: 2048
+Power block address: 0x70fd9cd00800
+Power for block: 12
+Power block size: 4096
+Power block address: (nil)
+Power for block: 12
+Power block size: 4096
+Power block address: 0x70fd9cd03000
+Power for block: 10
+Power block size: 1024
+Power block address: 0x70fd9cd00400
+Power for block: 12
+Power block size: 4096
+Power block address: 0x70fd9cdff000
+Power for block: 10
+Power block size: 1024
+Power block address: (nil)
+Power for block: 11
+Power block size: 2048
+Power block address: (nil)
+Used memory: 1047232
+Free memory: 1024
+Total memory: 1048256
+Count of blocks: 416
+

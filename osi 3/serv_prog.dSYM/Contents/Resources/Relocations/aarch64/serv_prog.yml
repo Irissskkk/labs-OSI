@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/macbookirissskkk/Desktop/osi 3/serv_prog'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _make_array, symObjAddr: 0x0, symBinAddr: 0x100003510, symSize: 0xE4 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _CLIENT_PROGRAM_NAME, symObjAddr: 0x987, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x75, size: 0x8, addend: 0x0, symName: _make_array, symObjAddr: 0x0, symBinAddr: 0x100003510, symSize: 0xE4 }
+  - { offsetInCU: 0xF1, offset: 0xF1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xE4, symBinAddr: 0x1000035F4, symSize: 0x6DC }
+...
